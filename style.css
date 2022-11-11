@@ -1,0 +1,10 @@
+body{
+    background: rgb(253, 246, 246);
+}
+
+.navbar{
+    background: rgb(253, 246, 246);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
