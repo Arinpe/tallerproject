@@ -7,4 +7,98 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.navbar ul li a:hover{
+    color: rgb(46, 46, 253);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    text-decoration: none;
+}
+
+.container h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.container h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.container p{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.container a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin: 20px 0;
+    padding: 10px 20px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.foundation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    text-decoration: none;
+}
+
+.foundation h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.foundation a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin: 20px 0;
+    padding: 10px 20px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+    
 }
