@@ -1,9 +1,11 @@
 body{
-    background: rgb(253, 246, 246);
+    background: rgb(245, 237, 237);
+    max-width: 100vmax;
+    font-family: 'Roboto', sans-serif;';
 }
 
 .navbar{
-    background: rgb(253, 246, 246);
+    background: rgb(245, 237, 237);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,11 +27,15 @@ body{
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 .navbar ul li a:hover{
     color: rgb(46, 46, 253);
+}
+
+.sign {
+    
 }
 
 .container{
@@ -46,6 +52,7 @@ body{
     font-weight: 600;
     color: rgb(0, 0, 0);
 }
+
 .container h2{
     font-size: 30px;
     font-weight: 600;
@@ -81,6 +88,11 @@ body{
     text-decoration: none;
 }
 
+.foundation h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
 .foundation h2{
     font-size: 30px;
     font-weight: 600;
@@ -100,4 +112,26 @@ body{
     border: 1px solid rgb(0, 0, 0);
     border-radius: 5px;
 }
+
+.dev {
+    margin-top: 5%;
+    margin-left: 25px;
+}
+
+.deve{
+    margin: 30px 2%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.difference {
+    margin-left: 25px;
+}
+
+.differ {
+    margin: 30px 2%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
     
