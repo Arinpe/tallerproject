@@ -14,7 +14,7 @@
 		<link rel="stylesheet" href="assets/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/shCore.css">
 		<link rel="stylesheet" href="assets/shThemeDefault.css">
-		<link rel="stylesheet" href="assets/style.css">
+		<link rel="stylesheet" href="/style.css">
 	</head>
 
     <body style="">
@@ -27,25 +27,24 @@
 		<!-- Menu -->
 		<div id="doc-menu">
 			<ul class="nav">
-                <li data-target="read" class="nav-link"><a href="#notice">READ FIRST</a></li>
                 <li data-target="intro" class="nav-link"><a href="#start">Introduction</a></li>
                 <li data-target="web-dev" class="nav-link"><a href="#">Introduction to Web Development</a></li>
                 <li data-target="software" class="nav-link"><a href="#fav">Introduction to Software Engineering</a></li>
                 <li data-target="install" class="nav-link"><a href="#logo">Installations</a></li>
-                <li data-target="html" class="nav-link"><a href="#font">HTML Structure</a></li>
-				<li data-target="css" class="nav-link"><a href="#s2">CSS Structure</a></li>
-				<li data-target="js" class="nav-link"><a href="#s3">JavaScripts</a></li>
+                <li data-target="html-structure" class="nav-link"><a href="#font">HTML Structure</a></li>
+				<li data-target="css-structure" class="nav-link"><a href="#s2">CSS Structure</a></li>
+				<li data-target="javascript-structure" class="nav-link"><a href="#s3">JavaScripts</a></li>
 			</ul>
 		</div>
 
 		<!-- Content -->
 		<div id="doc-content" data-spy="scroll" data-target="#menu">
 
-			<div id="intro">
-				<div class="content">
+			<div id="intro" class="content show-content">
+				<div class="intro-content">
 					<h1>LuTA - PAL: Pre Assessment Learning <span>v1.0</span></h1>
 					<h2></h2><br>
-                    <p></p>
+                    <!-- <p>Welcome to LuTA, where you </p> -->
 				</div>
 			</div>
 
@@ -92,71 +91,216 @@
 				<div id="software" class="content">
 						<h1>Introduction to Software Engineering</h1>
 						<p>
-							Software engineering is the application of engineering to the development of software in a systematic method. Software engineering is a computing discipline. The application of software engineering within the software development process is called software development. It is a systematic approach to software design, involving the application of engineering practices to the development of software. Software engineering deals with the application of engineering principles to the development of software. It is a branch of computer science that focuses on the design, development, and maintenance of software. It is a systematic approach to software design, involving the application of engineering practices to the development of software.
+							<i>Software Engineering </i> the application of engineering to the development of software in a systematic method. Software engineering is a computing discipline. The application of software engineering within the software development process is called software development. It is a systematic approach to software design, involving the application of engineering practices to the development of software. Software engineering deals with the application of engineering principles to the development of software. It is a branch of computer science that focuses on the design, development, and maintenance of software. It is a systematic approach to software design, involving the application of engineering practices to the development of software.
 						</p>
-						<br>
-
-						<h2>Types Of Software</h2>
+						<h1>Types Of Software</h1>
 						<p>
-							<h3>System software</h3> is used to provide core functions such as operating systems, disk management, utilities, hardware management and other operational necessities.
+							<i>System Software</i> is used to provide core functions such as operating systems, disk management, utilities, hardware management and other operational necessities.
 						</p>
-						<br>
 
 						<p>
-							<h3>Application software</h3> is used to perform specific tasks such as word processing, database management, spreadsheets, and other productivity tools.
+							<i>Application Software</i> is used to perform specific tasks such as word processing, database management, spreadsheets, and other productivity tools.
 						</p>
-						<br>
 
 						<p>
-							<h3>
+							<i>
 								Programming Software
-							</h3>  is to give programmers tools such as text editors, compilers, linkers, 
-							debuggers and other tools to create code.
+							</i> is to give programmers tools such as text editors, compilers, linkers, debuggers and other tools to create code.
 						</p>
+
+						<p>
+							<i>Programmers</i> writes source code to program computers for specific tasks like merging databases, processing online orders, routing communications, conducting searches or displaying text and graphics. Programmers typically interpret instructions from software developers and engineers using programming languages like C++ or Java to carry them out.
+						</p>
+
+						<p>
+							<i>Software Engineers</i> apply engineering principles to build software and systems to solve problems. They use modeling language and other tools to devise solutions that can often be applied to problems in a general way, as opposed to merely solving for a specific instance or client. Software engineering solutions adhere to the scientific method and must work in the real world, as with bridges or elevators. Their responsibility has grown as products have become increasingly more intelligent with the addition of microprocessors, sensors and software. Not only are more products relying on software for market differentiation, but their software development must be coordinated with the product’s mechanical and electrical development work.
+						</p>
+
+						<p>
+							<i>Software Developers</i> are responsible for the design, development, testing, and maintenance of software. They are involved in the entire software development life cycle, from the initial planning to the final testing and release. Software developers are also responsible for the design of the software architecture, as well as the creation of the software’s user interface. They are also responsible for the creation of the software’s documentation, which includes the user manual and the technical manual. Software developers are often required to work in teams, as they are often responsible for the development of multiple software products.
+						</p>
+
+						<p>
+							<i>Software Architects</i> are responsible for the design of the software architecture. 
+							Software architects are responsible for the design of the software architecture, as well as the creation of the software’s user interface. They are also responsible for the creation of the software’s documentation, which includes the user's manual and the technical manual. Software architects are often required to work in teams, as they are often responsible for the development of multiple software products.
+						</p>
+				</div>
+
+				<!-- Installations -->
+			<div id="install" class="content">
+				<h1>Installations</h1>
+					<h2>Step 1</h2>
+						<p>Download Visual Studio Code</p>
+					<h2>Step 2</h2>
+						<p>Install git from
+							<a href="https://git-scm.com/downloads">here</a>
+						</p>
+					<h2>Step 3</h2>
+						<p> Open Visual Studio Code go to file>Preferences>Settings.</p>
+					<h2>Step 4</h2>
+						<p> In settings go to features>terminal>integrated automation shell>Edit in settings.json then paste this code — >"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"</p>
+					<h2>Step 5</h2>
+						<p>Save by using ctrl+s</p>
+					<h2>Step 6</h2>
+						<p>Close your Visual Studio code and open it again for a refresh and then open your terminal</p>
+			</div>
+
+						<!-- HTML Structure -->
+
+				<div id="html-structure" class="content">
+					<h1>Introduction to HTML Structure</h1>
+					<p>
+						HTML is the standard markup language for creating Web pages. HTML stands for Hyper Text Markup Language. HTML describes the structure of a Web page. HTML consists of a series of elements. HTML elements tell the browser how to display the content. HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc. To do this HTML uses two things: tags and attributes.
+					</p>
+
+					<h1>What are Tags and Attributes</h1>
+					<p>
+						HTML tags label pieces of content such as "heading", "paragraph", "table", and so on. Browsers do not display the HTML tags, but use them to render the content of the page. HTML attributes provide additional information about the contents of an element. Attributes are always specified in the start tag. They usually come in name/value pairs like: name="value".
+					</p>
+					<h1>Rules to Remember while using HTML</h1>
+					<p>
+						1. The vast majority of tags must be opened (<tag>) and closed (</tag>) with the element information such as a title or text resting between the tags.
 						<br>
+						2. When using multiple tags, the tags must be closed in the order in which they were opened. 
+					</p>
 
-						<p>
-							<h3>programmers</h3> write source code to program computers for specific tasks like merging 
-							databases, processing online orders, routing communications, conducting searches or displaying 
-							text and graphics. Programmers typically interpret instructions from software developers and 
-							engineers and use programming languages like C++ or Java to carry them out.
-						</p>
+					<h1>Basic Construction of HTML</h1>
+					<p>
+						<!DOCTYPE html> — This tag specifies the language you will write on the page. In this case, the language is HTML 5.
+						<html> — This tag signals that from here on we are going to write in HTML code.
+						<head> — This is where all the metadata for the page goes — stuff mostly meant for search engines and other computer programs.
+						<body> — This is where the content of the page goes visually.
+					</p>
 
-						<p>
-							<h3>Software Engineers</h3>  apply engineering principles to build software and systems to solve 
-							problems. They use modeling language and other tools to devise solutions that can often be 
-							applied to problems in a general way, as opposed to merely solving for a specific instance or 
-							client. Software engineering solutions adhere to the scientific method and must work in the real 
-							world, as with bridges or elevators. Their responsibility has grown as products have become 
-							increasingly more intelligent with the addition of microprocessors, sensors and software. Not 
-							only are more products relying on software for market differentiation, but their software 
-							development must be coordinated with the product’s mechanical and electrical development 
-							work.
-						</p>
+					<h1>HTML Elements</h1>
+					<p>
+						HTML elements are the building blocks of HTML pages. HTML elements are represented by tags. HTML tags label pieces of content such as "heading", "paragraph", "table", and so on. Browsers do not display the HTML tags, but use them to render the content of the page. HTML elements are represented by tags. HTML tags label pieces of content such as "heading", "paragraph", "table", and so on. Browsers do not display the HTML tags, but use them to render the content of the page.
+					</p>
+				</div>
 
-						<p>
-							<h3>Software Developers</h3>  are responsible for the design, development, testing, and 
-							maintenance of software. They are involved in the entire software development life cycle, 
-							from the initial planning to the final testing and release. Software developers are also 
-							responsible for the design of the software architecture, as well as the creation of the 
-							software’s user interface. They are also responsible for the creation of the software’s 
-							documentation, which includes the user manual and the technical manual. Software developers 
-							are often required to work in teams, as they are often responsible for the development of 
-							multiple software products.
-						</p>
+				
+				<!-- CSS Structure -->
+			 <div id="css-structure" class="content"> 
+					<h1>Introduction to CSS</h1>
+				<p>
+					CSS stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen, paper, or in other media. Cascading means CSS code 
+					is read and processed from top to bottom. CSS saves a lot of work. It can control the layout of multiple web pages all at once. External stylesheets are stored in CSS files. It allows you to design and ornament your web pages.
+				</p>
 
-						<p>
-							<h3>Software Architects</h3>  are responsible for the design of the software architecture. 
-							Software architects are responsible for the design of the software architecture, as well as the 
-							creation of the software’s user interface. They are also responsible for the creation of the 
-							software’s documentation, which includes the user manual and the technical manual. Software 
-							architects are often required to work in teams, as they are often responsible for the 
-							development of multiple software products.
-						</p>
+				<p>
+					CSS is designed to make style sheets for the web. It is independent of HTML and can be used with any XML-based markup language. Now let’s try to break the acronym:
 
+					Cascading: Falling of Styles
+					Style: Adding designs/Styling our HTML tags
+					Sheets: Writing our style in different documents
+				</p>
 
+				<h1>
+					CSS Sytanx
+				</h1>
+					<p>
+						Selector: selects the element you want to target
+						Always remains the same whether we apply internal or external styling 
+						There are few basic selectors like tags, id’s, and classes
+						All forms this key-value pair
+						Keys: properties(attributes) like color, font-size, background, width, height,etc
+						Value: values associated with these properties
+					</p>
+				
+				<h1>Types of CSS</h1>
+				<p>
+					There are three types of CSS: <br>
+					1. Inline CSS <br>
+					2. Internal CSS <br>
+					3. External CSS <br>
+				</p>
 
-            
+				<h1>Inline CSS</h1>
+				<p>
+					Inline CSS are used to style a specific HTML element. It is not a recommended style of CSS. as each HTML tag needs to be styled individually. Managing a web page may become too hard if you only use inline CSS.
+
+					However, inline CSS in HTML can be useful in some situations. For example, in cases where you don’t have access to CSS files or need to apply styles for a single element only.
+				</p>
+
+				<h1>Internal CSS</h1>
+				<p>
+					Internal CSS is used to define a style for a single HTML page. Internal CSS is defined within the style element, inside the head section of an HTML page. It is used to define a style for a single HTML page. Internal CSS is defined within the "style" element, inside the head section of an HTML page.
+				</p>
+
+				<h1>External CSS</h1>
+				<p>
+					External CSS is used to define a style for a whole website. External CSS is defined in an external .css file. Each HTML page must include a reference to the external CSS file inside the <head> section. External CSS is used to define a style for a whole website. External CSS is defined in an external .css file. Each HTML page must include a reference to the external CSS file inside the <head> section.
+				</p>
+
+				<h1>CSS Selectors</h1>
+					<p>
+						There are three types of CSS selectors: <br>
+						1. Element Selector <br>
+						2. ID Selector <br>
+						3. Class Selector
+					</p>
+				<h1>Element Selector</h1>
+					<p>
+						This is used to select html by it's name. 
+					</p>
+				<h1>ID Selector</h1>
+					<p>
+						This is used to select html by it's id. 
+					</p>
+				<h1>Class Selector</h1>
+					<p>
+						This is used to select html by it's class. 
+					</p>
+			</div>
+
+ 				<!-- JavaScript Structure -->
+            <div id="javascript-structure" class="content">
+				<h1>
+					Introduction to JavaScript
+				</h1>
+					<p>
+						JavaScript is a lightweight, interpreted programming language. It is designed for creating network-centric applications. It is complimentary to and integrated with Java. JavaScript is very easy to implement because it is integrated with HTML. It is an open and cross-platform.  Just like HTML and CSS, JavaScript is written in plain text files with a .js extension. JavaScript can be used to accomplish many useful operations on the 
+						frontend, like validating forms, alerting users, storing temporary data, and performing calculations—to name just a few.
+					</p>
+
+				<h1>JavaScript Concepts</h1>
+					<p>
+						<h2>Variables</h2>
+							<p>
+								Variables are containers for storing data values. They are friendly names that holds data. Variables are immensely useful for storing data. Variables can also be used to store different types of data such as numbers, strings, and other variables. In JavaScript, there are three types of variables; var, let, and const.
+							</p>
+						<h2>Functions</h2>
+							<p>
+								Functions are blocks of code to which we assign a name so that we can reuse them. Say adding two numbers is a common operation for our website.
+							</p>
+						<h2>Objects</h2>
+							<p>
+								Objects are a collection of properties. They are used to store related data. Objects are used to store data in a structured way, which can be easily accessed and modified.
+							</p>
+
+						<h2>Arithmetic Operation</h2>
+							<p>
+								JavaScript can also be used as a calculator. In fact, a lot of the code you’ll see in the wild will have basic calculations everywhere. It supports all the regular functions, called operators, like plus (+), minus (-), multiply (*), divide (/) and so on.
+							</p>
+						<h2>Comparison Operation</h2>
+							<p>
+								Comparison operators are used in logical statements to determine equality or difference between variables or values. Comparison operators are also used in conditional statements to determine whether a specified condition is true or false.
+							</p>
+						<h2>Logical Operation</h2>
+							<p>
+								Logical operators are used to determine the logic between variables or values. Logical operators are used to determine the logic between variables or values. Logical operators are used to determine the logic between variables or values.
+							</p>
+						<h2>Conditional Statements</h2>
+							<p>
+								Conditional statements are used to perform different actions based on different conditions. Conditional statements are used to perform different actions based on different conditions. Conditional statements are used to perform different actions based on different conditions.
+							</p>
+						<h2>Loops</h2>
+							<p>
+								Loops are used to execute a block of code a number of times. Loops are used to execute a block of code a number of times. Loops are used to execute a block of code a number of times.
+							</p>
+					</p>
+
+			</div>
 
 		<!-- JavaScripts -->
 		<script type="text/javascript" src="assets/jquery.min.js"></script>
@@ -169,6 +313,8 @@
 		<script type="text/javascript" src="assets/shBrushJScript.js"></script>
 		<script type="text/javascript" src="assets/shBrushCss.js"></script>
 		<script type="text/javascript" src="assets/custom.js"></script>
+		<script type="text/javascript" src="index.js"></script>
+		
 
 	
 </div>

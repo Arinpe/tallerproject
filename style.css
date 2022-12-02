@@ -209,7 +209,7 @@ b {
   width: 100%;
   height: 100%;
   text-align: center;
-  display: table;
+  /* display: table; */
   background-size: auto 80%;
 }
 
@@ -237,6 +237,43 @@ b {
 
 .syntaxhighlighter .line .number {
   width: auto !important;
+}
+
+.content {
+  display: none;
+}
+
+.content p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: 400px;
+}
+
+.content h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 36px;
+  font-weight: 400px;
+}
+
+.content h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 28px;
+  font-weight: 400px;
+}
+
+.hide {
+  display: none;
+}
+
+.show-content{
+  display: block;
+}
+
+.intro-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
 /* Responsive */
